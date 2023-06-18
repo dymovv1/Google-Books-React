@@ -1,0 +1,49 @@
+.page-book {
+  font-family: 'Jost', sans-serif;
+&__body {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 10px;
+}
+  padding: 50px 0;
+  &__general {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  &__img {
+    max-width: 150px;
+  }
+  &__name {
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  &__description {
+    letter-spacing: 1.5px;
+    line-height: 48px;
+  }
+  &__buttons {
+    display: flex;
+    gap: 50px;
+  }
+  &__btn {
+    display: inline-flex;
+    padding: 7px 0;
+    width: 100px;
+    color: white;
+    justify-content: center;
+    background: #658cf0;
+    border-radius: 5px;
+    transition: all 0.25s;
+  }
+  &__btn:hover {
+    background: #4c76e0;
+  }
+}
